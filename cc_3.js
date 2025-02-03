@@ -46,3 +46,19 @@ console.log(feedback);
 feedback.push({customerName: "Saturo Gojo", feedbackText: "Goes great with my shades", rating: 9}); //Added new feedback to array
 console.log("Customer Feedback: ", feedback);
 //Task 4 - Customer Feedback Records
+
+
+let inventory = {
+    itemName: "Tuxedo",
+    stockCount: 75,
+    price: 350,
+    //Added properties to Inventory
+
+    calculateTotalValue: function() {
+        return this.stockCount * this.price;
+    } //Calculates total value of inventory
+}; 
+
+console.log("Inventory Details: ", inventory);
+console.log("Inventory Total Value ", inventory.calculateTotalValue());
+//Task 5 - Inventory Management System
