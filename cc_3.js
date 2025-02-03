@@ -34,3 +34,15 @@ employee.promotionEligible = true; // Added Promotion Eligibility
 let employeeUpdated = employee;
 console.log("Updated Employee Information: ", employee);
 //Task 3 - Employee Performace Tracking
+
+
+let feedback = [
+    {customerName: "Megumi Fushiguro", feedbackText: "Great service and loved the product", rating: 10},
+    {customerName: "Calcifer Clark", feedbackText: "Very hotheaded", rating: 3},
+    {customerName: "Chihiro Ogino", feedbackText: "Trouble with website, but product was good", rating: 6}
+]; //Array of customer feedback
+console.log(feedback);
+
+feedback.push({customerName: "Saturo Gojo", feedbackText: "Goes great with my shades", rating: 9}); //Added new feedback to array
+console.log("Customer Feedback: ", feedback);
+//Task 4 - Customer Feedback Records
