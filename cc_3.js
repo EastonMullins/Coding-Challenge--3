@@ -18,3 +18,19 @@ console.log("Orders Adjusted: ", orders);
 let totalOrders = orders.reduce((sum, total)=> sum + total, 0);
 console.log("Total Orders: ", totalOrders);
 //Task 2 - Modifying Customer Orders
+
+
+let employee = {
+    name: "Alice Clark",
+    role: "Cat Sitter",
+    performanceScore: 87,
+    isActive: true
+}; //Employee Properties
+
+employee.performanceScore = 98; // Updated Performace Score to 98
+
+employee.promotionEligible = true; // Added Promotion Eligibility
+
+let employeeUpdated = employee;
+console.log("Updated Employee Information: ", employee);
+//Task 3 - Employee Performace Tracking
